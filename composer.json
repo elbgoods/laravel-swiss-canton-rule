@@ -1,0 +1,52 @@
+{
+  "name": "elbgoods/laravel-swiss-canton-rule",
+  "description": "Laravel validation rules for swiss cantons.",
+  "keywords": [
+    "laravel",
+    "validation",
+    "swiss",
+    "cantons"
+  ],
+  "homepage": "https://github.com/elbgoods/laravel-swiss-canton-rule",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tom Witkowski",
+      "email": "dev.gummibeer@gmail.com",
+      "homepage": "https://gummibeer.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "^6.0",
+    "wnx/php-swiss-cantons": "^2.0"
+  },
+  "require-dev": {
+    "codedungeon/phpunit-result-printer": "^0.26.2",
+    "elbgoods/ci-test-tools": "^1.5.0",
+    "nunomaduro/collision": "^3.0",
+    "orchestra/testbench": "^4.0",
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Elbgoods\\SwissCantonRule\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Elbgoods\\SwissCantonRule\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Elbgoods\\SwissCantonRule\\SwissCantonRuleServiceProvider"
+      ]
+    }
+  }
+}
