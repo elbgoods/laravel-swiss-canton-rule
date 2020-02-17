@@ -86,6 +86,13 @@ class SwissCantonRule implements Rule
         return ! $this->required;
     }
 
+    /**
+     * @param string|int $value
+     *
+     * @return Canton
+     *
+     * @throws Exception
+     */
     protected function resolveCanton($value): Canton
     {
         switch ($this->format) {
