@@ -6,6 +6,6 @@ class SwissCantonZipCodeRule extends SwissCantonRule
 {
     public function __construct(bool $required = true)
     {
-        parent::__construct(SwissCantonRule::FORMAT_ZIP_CODE, $required);
+        parent::__construct(SwissCantonRule::FORMAT_ZIP_CODE, null, $required);
     }
 }
