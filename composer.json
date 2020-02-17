@@ -24,7 +24,7 @@
   },
   "require-dev": {
     "codedungeon/phpunit-result-printer": "^0.26.2",
-    "elbgoods/ci-test-tools": "^1.5.0",
+    "elbgoods/ci-test-tools": "^1.5.1",
     "nunomaduro/collision": "^3.0",
     "orchestra/testbench": "^4.0",
     "phpunit/phpunit": "^8.0"
