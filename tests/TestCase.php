@@ -27,23 +27,7 @@ abstract class TestCase extends Orchestra
 
     public function provideSwissCantonZipCode(): array
     {
-        $abbreviations = array_keys((new Cantons())->getAllAsArray());
-
-        return array_filter(array_map(static function (stdClass $data) use ($abbreviations): ?array {
-            if (empty($data->canton)) {
-                return null;
-            }
-
-            if ($data->zipcode == 2400) {
-                // @todo: https://github.com/stefanzweifel/php-swiss-cantons/issues/28
-                return null;
-            }
-
-            if (! in_array($data->canton, $abbreviations)) {
-                // @todo: https://github.com/stefanzweifel/php-swiss-cantons/issues/27
-                return null;
-            }
-
+        return array_filter(array_map(static function (stdClass $data): ?array {
             return [$data->zipcode];
         }, (new ZipcodeSearch())->getDataSet()));
     }
