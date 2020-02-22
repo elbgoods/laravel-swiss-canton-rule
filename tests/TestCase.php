@@ -27,8 +27,8 @@ abstract class TestCase extends Orchestra
 
     public function provideSwissCantonZipCode(): array
     {
-        return array_filter(array_map(static function (stdClass $data): ?array {
-            return [$data->zipcode];
+        return array_filter(array_map(static function (array $data): ?array {
+            return [$data['zipcode']];
         }, (new ZipcodeSearch())->getDataSet()));
     }
 
