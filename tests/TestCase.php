@@ -4,7 +4,6 @@ namespace Elbgoods\SwissCantonRule\Tests;
 
 use Elbgoods\SwissCantonRule\SwissCantonRuleServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use stdClass;
 use Wnx\SwissCantons\Canton;
 use Wnx\SwissCantons\Cantons;
 use Wnx\SwissCantons\ZipcodeSearch;
