@@ -109,7 +109,7 @@ class SwissCantonRule implements Rule
 
                 return $canton;
             case self::FORMAT_ZIP_CODE:
-                return $this->getCantonManager()->getByZipcode($value);
+                return $this->getCantonManager()->getByZipcode(intval($value));
             default:
                 throw new InvalidArgumentException(sprintf('The given format "%s" is not valid [%s]', $this->format, implode(', ', self::FORMATS)));
         }
