@@ -8,7 +8,6 @@
 [![StyleCI](https://styleci.io/repos/241097556/shield)](https://styleci.io/repos/241097556)
 [![Total Downloads](https://img.shields.io/packagist/dt/elbgoods/laravel-swiss-canton-rule.svg?style=flat-square)](https://packagist.org/packages/elbgoods/laravel-swiss-canton-rule)
 
-
 This package provides multiple validation rules to validate swiss cantons.
 It's based on [wnx/php-swiss-cantons](https://github.com/stefanzweifel/php-swiss-cantons).
 
