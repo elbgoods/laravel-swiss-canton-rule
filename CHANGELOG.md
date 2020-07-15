@@ -2,6 +2,10 @@
 
 All notable changes to this package will be documented in this file.
 
+## v0.4.0
+
+- add Laravel 7 support
+
 ## v0.3.0
 
 * upgrade `wnx/php-swiss-cantons` to v3.0
