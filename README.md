@@ -5,6 +5,7 @@
 [![Offset Earth](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-green?style=for-the-badge&cacheSeconds=600)](https://plant.treeware.earth/elbgoods/laravel-swiss-canton-rule)
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elbgoods/laravel-swiss-canton-rule/run-tests?label=tests&style=flat-square)](https://github.com/elbgoods/laravel-swiss-canton-rule/actions?query=workflow%3Arun-tests)
+[![StyleCI](https://styleci.io/repos/241097556/shield)](https://styleci.io/repos/241097556)
 [![Total Downloads](https://img.shields.io/packagist/dt/elbgoods/laravel-swiss-canton-rule.svg?style=flat-square)](https://packagist.org/packages/elbgoods/laravel-swiss-canton-rule)
 
 
